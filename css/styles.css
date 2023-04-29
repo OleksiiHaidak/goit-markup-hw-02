@@ -1,0 +1,118 @@
+:root {
+    --accent-dark-color: #2E2F42;
+    --main-text-color: #434455;
+    --main-white-color: #FFFFFF;
+    --accent-dark-blue-color: #404BBF;
+    --accent-blue-color: #4D5AE5;
+    --accent-color:#E7E9FC;
+    --accent-light-color: #F4F4FD;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+}
+
+.contacts {
+    font-style: normal;
+    color: var(--main-text-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--accent-blue-color);
+}
+
+.contact-menu-link,
+.hero-button,
+.filter-button,
+.menu-link {
+        font-weight: 500;
+        color: var(--main-text-color);
+}
+
+
+.contact-menu-link:hover,
+.contact-menu-link:focus,
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-dark-blue-color);
+}
+
+.page-footer,
+.hero {
+    background-color: var(--accent-dark-color);
+    color: var(--main-white-color);
+}
+
+.logo-second-part {
+    color: var(--accent-dark-color);
+}
+
+.white-logo {
+    color: var(--main-white-color);
+}
+
+.hero {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
+}
+
+.hero-button {
+    background-color: var(--accent-blue-color);
+    color: var(--main-white-color);
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: var(--accent-dark-blue-color);
+}
+
+.filter-button {
+    background-color: var(--accent-color);
+    color: var(--accent-blue-color);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--accent-color);
+    color: var(--main-white-color);
+}
+
+.section-item-title {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        color: var(--accent-dark-color);
+}
+
+.footer-title {
+    color: var(--accent-light-color);
+}
+
