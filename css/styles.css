@@ -23,15 +23,12 @@ button {
 
 body {
     font-family: 'Roboto', sans-serif;
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
         color: var(--main-text-color);
         background-color: var(--main-white-color);
 }
 
+.contact-menu-link,
 .section-item-description,
 .contacts {
     font-style: normal;
@@ -51,7 +48,6 @@ body {
 }
 
 .menu-item,
-.contact-menu-link,
 .hero-button,
 .filter-button {
         font-weight: 500;
@@ -63,6 +59,12 @@ body {
 .menu-link:hover,
 .menu-link:focus {
     color: var(--accent-dark-blue-color);
+}
+
+.menu-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .page-footer,
@@ -133,7 +135,6 @@ body {
     font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
-        text-align: center;
         letter-spacing: 0.02em;
         color: var(--accent-dark-color);
 }
