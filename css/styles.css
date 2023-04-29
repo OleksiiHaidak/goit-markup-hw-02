@@ -88,7 +88,6 @@ body {
     letter-spacing: 0.02em;
 }
 
-
 .hero-button {
     font-size: 16px;
     line-height: 1.5;
@@ -106,13 +105,13 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: var(--accent-color);
+    background-color: var(--accent-light-color);
     color: var(--accent-blue-color);
 }
 
 .filter-button:hover,
 .filter-button:focus {
-    background-color: var(--accent-color);
+    background-color: var(--accent-dark-blue-color);
     color: var(--main-white-color);
 }
 
