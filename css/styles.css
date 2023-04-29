@@ -32,6 +32,7 @@ body {
         background-color: var(--main-white-color);
 }
 
+.section-item-description,
 .contacts {
     font-style: normal;
     color: var(--main-text-color);
@@ -49,6 +50,7 @@ body {
         color: var(--accent-blue-color);
 }
 
+.menu-item,
 .contact-menu-link,
 .hero-button,
 .filter-button {
@@ -101,6 +103,9 @@ body {
 }
 
 .filter-button {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: var(--accent-color);
     color: var(--accent-blue-color);
 }
@@ -117,6 +122,12 @@ body {
         line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: var(--accent-dark-color);
+}
+
+.list-item {
+    background-color: var(--main-white-color);
 }
 
 .section-item-title {
