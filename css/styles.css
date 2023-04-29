@@ -120,13 +120,14 @@ body {
 .section-title {
     font-weight: 700;
         font-size: 36px;
-        line-height: 1.2;
+        line-height: 1.11;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
         color: var(--accent-dark-color);
 }
 
+.section-item-description,
 .section-main-title {
     line-height: 1.5;
     letter-spacing: 0.02em;
