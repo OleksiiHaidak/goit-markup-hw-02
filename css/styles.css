@@ -61,7 +61,7 @@ body {
     color: var(--accent-dark-blue-color);
 }
 
-.menu-link {
+.menu-item {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -129,6 +129,7 @@ body {
 
 .list-item {
     background-color: var(--main-white-color);
+    text-align: center;
 }
 
 .section-item-title {
@@ -139,12 +140,14 @@ body {
         color: var(--accent-dark-color);
 }
 
-.section-our-team {
-    background-color: var(--accent-light-color);
+.text,
+.item-description {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.text {
-    text-align: center;
+.section-our-team {
+    background-color: var(--accent-light-color);
 }
 
 .footer-title {
