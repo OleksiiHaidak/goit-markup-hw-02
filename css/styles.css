@@ -8,6 +8,28 @@
     --accent-light-color: #F4F4FD;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+    
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
 .list {
     list-style: none;
 }
@@ -47,7 +69,6 @@ body {
         color: var(--accent-blue-color);
 }
 
-.menu-item,
 .hero-button,
 .filter-button {
         font-weight: 500;
@@ -61,7 +82,7 @@ body {
     color: var(--accent-dark-blue-color);
 }
 
-.menu-item {
+.menu-link {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
